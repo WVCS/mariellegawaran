@@ -1,3 +1,21 @@
-body {
+@charset "utf-8";
 
+body {
+	background-color: aliceblue; 
+}
+
+img {
+	width: 200px
+}
+
+img:hover {
+	border: dotted white 10px;
+	border-radius: 70%;
+	width: 300px;
+}
+
+hl {
+	background-color: floralwhite;
+	color: slategray;
+	text-decoration: wavy underline;
 }
